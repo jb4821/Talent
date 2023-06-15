@@ -1,0 +1,70 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  z-index: 999;
+  background-color: white;
+  color: #1dbf73;
+}
+
+.navbar .container {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.navbar .container .logo {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.navbar .container .links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-weight: 500;
+  
+}
+
+.navbar .container .links .span:hover {
+  background-color: #1dbf73;
+}
+
+.navbar .container .links button {
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.navbar .container .links button:hover {
+  background-color: #1dbf73;
+  border-color: #1dbf73;
+}
+
+.manageandlogin {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 999;
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 200px;
+  font-weight: 300;
+  color: gray;
+}
+
+.manageandlogin a {
+  width: 100%;
+  text-align: left;
+  color: #000 !important;
+  cursor: pointer;
+}
